@@ -95,7 +95,7 @@ enum frm_cfg {
 	CLK_GEAR	= 7,
 	ROOT_FREQ	= 11,
 	CLK_GEAR	= 11,
-	ROOT_FREQ	= 22,
+	ROOT_FREQ	= 31,
 	REF_CLK_GEAR	= 15,
 	INTR_WAKE	= 19,
 };
