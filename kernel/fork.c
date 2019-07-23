@@ -78,10 +78,7 @@
 #include <linux/compiler.h>
 #include <linux/sysctl.h>
 #include <linux/kcov.h>
-<<<<<<< HEAD
-=======
 #include <linux/simple_lmk.h>
->>>>>>> b877d24ce6c7... cpufreq: Remove cpufreq_times from CAF
 
 #include <asm/pgtable.h>
 #include <asm/pgalloc.h>
@@ -1815,13 +1812,10 @@ long _do_fork(unsigned long clone_flags,
 		struct completion vfork;
 		struct pid *pid;
 
-<<<<<<< HEAD
 		cpufreq_task_times_alloc(p);
 
 //		trace_sched_process_fork(current, p);
-=======
 		trace_sched_process_fork(current, p);
->>>>>>> b877d24ce6c7... cpufreq: Remove cpufreq_times from CAF
 
 		pid = get_task_pid(p, PIDTYPE_PID);
 		nr = pid_vnr(pid);
