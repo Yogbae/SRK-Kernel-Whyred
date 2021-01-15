@@ -510,8 +510,10 @@ static int __init init_obdclass(void)
 	 * for other purposes (mostly for BGL). */
 	if (totalram_pages <= 512 << (20 - PAGE_SHIFT))
 		obd_max_dirty_pages = totalram_pages / 4;
+	if (totalram_pages() <= 512 << (20 - PAGE_CACHE_SHIFT))
+		obd_max_dirty_pages = totalram_pages() / 4;
 	else
-		obd_max_dirty_pages = totalram_pages / 2;
+		obd_max_dirty_pages = totalram_pages() / 2;
 
 	err = obd_init_caches();
 	if (err)
