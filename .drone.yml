@@ -15,6 +15,7 @@ jobs:
             python3 -m pip  install networkx
             git config --global user.name "user"
             git config --global user.emai "email"
+            git clone https://github.com/WhysDev/SRK-Kernel-Whyred
             source build.sh
           no_output_timeout : 5h
 workflows:
