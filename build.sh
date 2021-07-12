@@ -12,9 +12,9 @@ export TOOLCHAIN=clang
 
 export DEVICES=whyred
 
-export CI_ID=
+export CI_ID=-1001258546004
 
-export GROUP_ID=
+export GROUP_ID=-456289175
 
 source helper
 
