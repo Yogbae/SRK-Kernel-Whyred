@@ -1,20 +1,20 @@
 #!/bin/bash
 
-export KERNELNAME=Moonlight
+export KERNELNAME=SRK-Kernel-VIP-Edition-Whyred
 
-export LOCALVERSION=Takashi-v3.1
+export LOCALVERSION=SRK-Kernel-VIP-Edition
 
-export KBUILD_BUILD_USER=Sixzz
+export KBUILD_BUILD_USER=WhysDev
 
 export KBUILD_BUILD_HOST=DroneCI
 
 export TOOLCHAIN=clang
 
-export DEVICES=whyred,tulip,lavender,a26x
+export DEVICES=whyred
 
-export CI_ID=-1001463706805
+export CI_ID=
 
-export GROUP_ID=-1001401101008
+export GROUP_ID=
 
 source helper
 
