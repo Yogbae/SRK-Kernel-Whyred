@@ -20,9 +20,9 @@ source helper
 
 gen_toolchain
 
-send_msg "⏳ Start building ${KERNELNAME} ${LOCALVERSION} | DEVICES: whyred - tulip - lavender - wayne - jasmine"
+send_msg "⏳ Start building ${KERNELNAME} ${LOCALVERSION} | DEVICES: whyred
 
-send_pesan "⏳ Start building ${KERNELNAME} ${LOCALVERSION} | DEVICES: whyred - tulip - lavender - wayne - jasmine"
+send_pesan "⏳ Start building ${KERNELNAME} ${LOCALVERSION} | DEVICES: whyred
 
 START=$(date +"%s")
 
@@ -33,9 +33,9 @@ do
 	build ${i} -newcam
 done
 
-send_msg "⏳ Start building Overclock version | DEVICES: whyred - tulip"
+send_msg "⏳ Start building Overclock version | DEVICES: whyred
 
-send_pesan "⏳ Start building Overclock version | DEVICES: whyred - tulip"
+send_pesan "⏳ Start building Overclock version | DEVICES: whyred
 
 git apply oc.patch
 
@@ -43,7 +43,7 @@ git apply em.patch
 
 for i in ${DEVICES//,/ }
 do
-	if [ $i == "whyred" ] || [ $i == "tulip" ]
+	if [ $i == "whyred" ]
 	then
 		build ${i} -oldcam -overclock
 
