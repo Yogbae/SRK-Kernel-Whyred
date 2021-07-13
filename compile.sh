@@ -5,7 +5,7 @@ export CROSS_COMPILE=aarch64-linux-gnu-
 export CROSS_COMPILE_ARM32=arm-linux-gnueabi-
 # Compie plox
 function compile() {
-    make -j$(nproc) O=out ARCH=arm64 whyred_defconfig
+    make -j$(nproc) O=out ARCH=arm64 whyred-newcam_defconfig
     make -j$(nproc) ARCH=arm64 O=out \
                               CC=clang-12
 }
