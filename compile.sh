@@ -7,6 +7,6 @@ export CROSS_COMPILE_ARM32=arm-linux-gnueabi-
 function compile() {
     make -j$(nproc) O=out ARCH=arm64 whyred_defconfig
     make -j$(nproc) ARCH=arm64 O=out \
-                              CC=clang-11
+                              CC=clang-12
 }
 compile
