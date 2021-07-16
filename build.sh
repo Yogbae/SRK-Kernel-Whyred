@@ -8,7 +8,7 @@ export KBUILD_BUILD_USER=WhysDev
 
 export KBUILD_BUILD_HOST=SRK
 
-export TOOLCHAIN=gcc
+export TOOLCHAIN=clang
 
 export DEVICES=whyred
 
