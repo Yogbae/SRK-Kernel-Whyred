@@ -10,7 +10,6 @@ steps:
   environment:
     bot_token:
       from_secret:
-    chat_id:
       from_secret:
   commands:
   - bash build.sh
