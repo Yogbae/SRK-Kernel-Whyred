@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export KERNELNAME="SRK-Kernel
+export KERNELNAME="SRK-Kernel"
 
 export LOCALVERSION=V14
 
