@@ -1,5 +1,5 @@
 kind: pipeline
-name: SRK Project
+name: BrazzErZ Project
 
 clone:
   depth: 1
