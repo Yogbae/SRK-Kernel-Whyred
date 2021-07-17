@@ -1,16 +1,16 @@
 #!/bin/bash
 
-export KERNELNAME="SRK-Kernel-V14
+export KERNELNAME="BraZzerz
 
-export LOCALVERSION=V14
+export LOCALVERSION=V1
 
-export KBUILD_BUILD_USER=WhysDev
+export KBUILD_BUILD_USER=Yogbae
 
-export KBUILD_BUILD_HOST=SRK
+export KBUILD_BUILD_HOST=YB
 
-export TOOLCHAIN=clang
+export TOOLCHAIN=gcc
 
-export DEVICES=whyred
+export DEVICES=begonia
 
 source helper
 
